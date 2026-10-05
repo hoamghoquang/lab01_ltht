@@ -162,7 +162,7 @@ int float_f2i(unsigned uf) {
     int E;
     int result;
 
-    // 1. Trường hợp exp = 0 (số 0 hoặc số không chuẩn hóa): giá trị < 1, làm tròn về 0
+    // 1. Trường hợp exp = 0  giá trị < 1, làm tròn về 0
     if (exp == 0) {
         return 0;
     }
